@@ -1,0 +1,21 @@
+{
+  "id": 30,
+  "title": "Kitchen Safety Node Adaptive Scheduling",
+  "repository_slug": "kitchen-safety-node-adaptive-scheduling",
+  "category": "Smart Home",
+  "platform": "ESP8266",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "Wi-Fi",
+  "components": [
+    "BME280",
+    "RGB LED",
+    "OLED display"
+  ],
+  "scope": "Build a smart home prototype that uses BME280, RGB LED, OLED display to adjust schedules from occupancy patterns. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Adaptive Scheduling demonstration with repeatable test steps",
+  "mode": "safety_latch",
+  "entrypoint": "firmware/kitchen-safety-node-adaptive-scheduling/kitchen-safety-node-adaptive-scheduling.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
